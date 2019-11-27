@@ -15,10 +15,10 @@ scriptedLaunchOpts ++= {
 scriptedBufferLog := false
 
 
-addSbtPlugin("de.heikoseeberger"  % "sbt-header"   % "5.2.0")
+addSbtPlugin("de.heikoseeberger"  % "sbt-header"   % "5.3.1")
 addSbtPlugin("com.dwijnand"       % "sbt-dynver"   % "4.0.0")
 addSbtPlugin("com.dwijnand"       % "sbt-travisci" % "1.2.0")
-addSbtPlugin("org.scalameta"      % "sbt-scalafmt" % "2.0.6")
+addSbtPlugin("org.scalameta"      % "sbt-scalafmt" % "2.0.7")
 addSbtPlugin("pl.project13.scala" % "sbt-jmh"      % "0.3.7")
 
 
